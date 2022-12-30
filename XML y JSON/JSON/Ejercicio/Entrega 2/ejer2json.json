@@ -1,0 +1,77 @@
+//ejercicio1
+
+{
+    "para":"Pedro",
+    "de":"Laura",
+    "titulo":"Recordatoria",
+    "contenido":"A las 7:00 en la puerta del teatro"
+}
+
+//ejercicio2
+
+[{
+    "nombre":"",
+    "ingrediente":"",
+    "intrucciones":"",
+    "Raciones":"",
+    "cantidad":"",
+    "dificultad":""
+}]
+
+//ejercicio3
+
+[{
+    "nombre":"",
+    "direccion":"",
+    "distribuidor":"",
+    "movil":""{
+        "codigodelmodelo":"",
+        "marca":"",
+        "caracteristicas":""
+    }
+}]
+
+//ejercicio4
+
+[{
+    "datosclientes":{
+        "nombre":"",
+        "apellidos":"",
+        "DNI":"",
+        "telefono":"",
+        "identificador":""
+    },
+    "datosfactura":{
+        "resguardo":"",
+        "alquileres":"",
+        "compras":[{
+            "DVD":[{
+                "tiltulo":"",
+                "fechasalida":"",
+                "extras":""
+            }]
+
+        },
+        {
+            "cintasvideos":[{
+                "formato":"",
+                "rebobinada":""
+            }]
+        }], 
+        "pago":"",
+        "importe":""
+    },
+    "pelicula":{
+        "nombre":"",
+        "genero":"",
+        "duracion":"",
+        [{
+            "nombre":"",
+            "apellido":"",
+            "papel":""
+        }],
+        "Descripcion":"",
+        "valoracion":"",
+        "IDpelicula":"",
+    }
+}]

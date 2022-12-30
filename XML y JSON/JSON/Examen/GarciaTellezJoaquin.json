@@ -1,0 +1,64 @@
+[{
+    "titulo":"Avatar:el sentido del agua",
+    "titulo_origunal":"Avatar: The Way of Water",
+    "genero":"Ciencia ficcion",
+    "duracion":"190min",
+    "Ayo":2022,
+    "clasificacion":"+12",
+    "Director":["James Cameron",""],
+    "Reparto":[{
+        "nombre":"Sam",
+        "apellido":"Worthington",
+        "nacionalidad":"No español"
+    },
+    {
+        "nombre":"Zoe",
+        "apellido":"Saldana",
+        "nacionalidad":"No español" 
+    },
+    {
+        "nombre":"Sigourney",
+        "apellido":"Weaver",
+        "nacionalidad":"No español"
+    },
+    {
+        "nombre":"Kate",
+        "apellido":"Wislet",
+        "nacionalidad":"No español"
+    }],
+    "web":"Avatar.com",
+    "cines":[{
+        "nombre":"Los Arcos",
+        "Horarios":["17:15","17:30","18:00","18:15"]
+    },
+    {
+        "nombre":"Yelmo",
+        "Horarios":["17:45","18:45","19:30","20:30","21:35","22:35","23:20"]
+    }]
+},
+{
+    "titulo":"El oro de Moscu",
+    "titulo_origunal":"",
+    "genero":"Comedia",
+    "duracion":"108min",
+    "Ayo":2002,
+    "clasificacion":"",
+    "Director":["Jesus Bonilla",""],
+    "Reparto":[{
+        "nombre":"Jesus",
+        "apellido":"Bonilla",
+        "nacionalidad":"español"
+    },
+    {
+        "nombre":"Santiago",
+        "apellido":"Segura",
+        "nacionalidad":"español" 
+    },
+    {
+        "nombre":"Alfredo",
+        "apellido":"Landa",
+        "nacionalidad":"español"
+    }],
+    "web":"",
+    "cines":""
+}]

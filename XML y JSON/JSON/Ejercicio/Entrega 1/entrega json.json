@@ -1,0 +1,161 @@
+{
+    "libro":"El diario de una princesa",
+    "libro1":"Lo que nunca te conte"
+}
+
+{
+    "uno":1,
+    "dos":22,
+    "tres":666666
+}
+
+{
+    "destinatario":"Juan Delgado",
+    "articulo":"bicicleta A2023",
+    "direccion":"Calle Barca 4, tercer piso, letra A"
+    "fecha":19-5-2000
+}
+
+[{
+    "deporte":"atletismo",
+    "nombre":"Jesse Owens"
+},
+{
+    "deporte":"Natacion",
+    "nombre":"Mark Spitz"
+}]
+
+[{
+    "titulo":"Con faldas y a lo loco",
+    "director":"Billy Wilder"
+},
+{
+    "director":"Leo McCarey",
+    "titulo":"Sopa de ganso"
+}]
+
+{
+    "titulo":"XML explicado a los niños",
+    [{
+        "parrafo":"el",
+        "abreviatura":"XML"
+    },
+    {
+        "parrafo":"Las marcas se añaden a un documento de texto para añadir informacion.",
+        "http":"www.example.org"
+    }]
+}
+
+{
+    "pais":"España",
+    "continente":"Europa",
+    "capital":"Madrid"
+}
+
+[{
+    "programa":""
+},
+{
+    "programa":""
+},
+{
+    "programa":""
+}]
+
+{
+    "mundial":"España",
+    "año":1982
+}
+
+{
+    "bicicleta":"100KM/H",
+    "patinete":"50KM/H"
+}
+
+{
+    "remitente":{
+        "nombre":"Alfredo Reino",
+        "email":"al@ibium.com"
+    },
+    {
+    "destinatario":{
+        "nombre":"Bill Clinton",
+        "email":"president@whishouse.gov"
+    }
+    },
+    {
+        "asunto":"Hola Bill"
+    },
+    {
+        "parrafo":"Hola que tal, hace mucho tiempo que no escribes.A ver si llamas y quedamos pronto. un saludo"
+    }
+}
+
+[{
+    "nombre":"Nombre",
+    "precio":"Precio(en euros)",
+    "descripcion":"Descripcion",
+    "calorias":"Calorias"
+},
+{
+    "nombre":"Gofres Belgas",
+    "precio":5.95,
+    "descripcion":"Dos de nuestros famosos Gofres belgas con abundante sirope.",
+    "calorias":650
+},
+{
+    "nombre":"Gofres Belgas con fresas",
+    "precio":7.95,
+    "descripcion":"Ligeros gofres belgas cubiertos de fresas y nata montada.",
+    "calorias":900
+},
+{
+    "nombre":"Gofres belgas con frutas",
+    "precio":8.95,
+    "descripcion":"Ligeros gofres belgas cubiertos con frutas del bosque y nata montada.",
+    "calorias":900
+},
+{
+    "nombre":"tostada francesa",
+    "precio":4.50,
+    "descripcion":"Dos grusas rebanadas de nuestro pan frances casero.",
+    "calorias":600
+},
+{
+    "nombre":"desayuno de la casa",
+    "precio":6.95,
+    "descripcion":"Dos huevos, bacon o salchichas, tostada y patatas fritas.",
+    "calorias":950
+}]
+
+[{
+    "Arbol":"Arcer Monspessulanum",
+    "NombreComun":"Arce de Montepellier.Arce menor",
+    "Vegetacion":"Caducifolio",
+    "Altura":"De 6 a 10 metros",
+    "FormaYEstructura":"Copa esferica. Tronco principal recto con bifurcaciones. Remaje colgante.",
+    "ColorEnPrimavera":"Haz verde brillante, enves verde blanquecino.",
+    "ResistenciaALasHeladas":"Heladas fuertes (hasta -15ªC)"
+},
+{
+    "Arbol":"Olea Europea",
+    "NombreComun":"Olivo",
+    "Vegetacion":"Perenne",
+    "Altura":"De 8 a 15 metros",
+    "FormaYEstructura":"Copa irregular. Tronco principal irregular con bifurcaciones."
+},
+{
+    "Arbol":"Ramaje Tortuoso",
+    "ColorEnPrimavera":"Haz verde oscuro, enves verde plateado.",
+    "ResistenciaALasHeladas":"Heladas medias (hasta -10ºC)"
+},
+{
+    "Arbol":"Platanus orientalis"
+    "NombreComun":"Platano",
+    "Vegetacion":"Caducifolio",
+    "Altura":"De 20 a 25 metros",
+    "FormaYEstructura":"Copa ovoidal.Tronco principal recto.Ramaje expandido.",
+    "ColorEnPrimavera":"Haz verde medio, enves verde claro.",
+    "ColorEnOtonyo":"Ocre",
+    "ResistenciaALasHeladas":"Heladas fuertes (-20ºC)"
+}]
