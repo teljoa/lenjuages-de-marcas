@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<libreria>
+    <codigo>1263</codigo>
+    <direccion>Juan de Juni, 31</direccion>
+    <telefono>983555555</telefono>
+    <propietario>
+        <nombre>Juanito</nombre>
+        <telefono>656222111</telefono>
+    </propietario>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel Garcia Marquez</autor>
+        <formato>Rustica</formato>
+        <publicacion>1967</publicacion>
+        <precio>23,5</precio>
+    </libro>
+</libreria>

@@ -1,0 +1,8 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="alumnos">
+        <xs:element name="alumno"></xs:element>
+        <xs:element name="fecha"></xs:element>
+        <xs:element name="nota"></xs:element>
+        <xs:element name="observacion"></xs:element>
+    </xs:element>
+</xs:schema>

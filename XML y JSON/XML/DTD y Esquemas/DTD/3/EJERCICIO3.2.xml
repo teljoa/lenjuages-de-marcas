@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTRYPE tiendas [
+    <!ELEMENT tiendas (tienda+)>
+    <!ELEMENT tienda (nombre+, direccion+, /distribuidor+, movil+)>
+    <!ELEMENT nombre (PCDATA)>
+    <!ELETIST direccion (#PCDATA)>
+    <!ELEMENT distribuidor (#PCDATA)>
+    <!ELEMENT movil (codigo_del_modelo+, marca+, caracteristicas+)
+]>
+
+<tiendas>
+    <tienda>
+        <nombre>opiedjgpos</nombre>
+        <direccion>cºioefhoijhsf Nº10</direccion>
+        <distribuidor>huideshf</distribuidor>
+        <movil>
+            <codigo_del_modelo>cjkdsjf</codigo_del_modelo>
+            <marca>iufgiajksfdh</marca>
+            <caracteristicas>bdeuiwghfuieshfui</caracteristicas>
+        </movil>
+    </tienda>
+</tiendas>

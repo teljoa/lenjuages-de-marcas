@@ -1,0 +1,50 @@
+<!DOCTYPE alumnos [
+<!ELEMENT alumnos (alumno+)>
+        <!ELEMENT alumno (nombre, apellido1, apellido2, domicilio, telefono, equipo_deportivo, aficion+, origen, comentario+, notas, sexo)>
+            <!ELEMENT nombre (#PCDATA)>
+                <!ATTLIST nombre identificador CDATA #REQUIRED>
+            <!ELEMENT apellido1 (#PCDATA)>
+            <!ELEMENT apellido2 (#PCDATA)>
+            <!ELEMENT domicilio (#PCDATA)>
+            <!ELEMENT telefono (#PCDATA)>
+                <!ATTLIST telefono pertenencia CDATA "propio, padre, madre, tutor">
+            <!ELEMENT equipo_deportivo (#PCDATA)>
+            <!ELEMENT aficion (#PCDATA)>
+            <!ELEMENT origen (espanol, extrangero)>
+                <!ELEMENT espanol (provincia)>
+                    <!ELEMENT provincia (#PCDATA)>
+                <!ELEMENT extrangero (pais)>
+                    <!ELEMENT pais (#PCDATA)>
+            <!ELEMENT comentario (#PCDATA)>
+            <!ELEMENT notas (evaluacion+, calificacion+)>
+                <!ELEMENT evaluacion (#PCDATA)>
+                <!ELEMENT calificacion (#PCDATA)>
+            <!ELEMENT sexo (#PCDATA)>
+                <!ATTLIST sexo genero CDATA "H, M">
+]>
+
+<alumnos>
+    <alumno>
+        <nombre identificador="J"></nombre>
+        <apellido1>dsgeds</apellido1>
+        <apellido2>dsgd</apellido2>
+        <domicilio>dsg</domicilio>
+        <telefono pertenencia="propio"></telefono>
+        <equipo_deportivo>drhdr</equipo_deportivo>
+        <aficion>rhehyrfgh</aficion>
+        <origen>
+            <espanol>
+                <provincia>reh</provincia>
+            </espanol>
+            <extrangero>
+                <pais>rdgh</pais>
+            </extrangero>
+        </origen>
+        <comentario>dfhregdrgrsg</comentario>
+        <notas>
+            <evaluacion>5</evaluacion>
+            <calificacion>8,99</calificacion>
+        </notas>
+        <sexo genero="H">hombre</sexo>
+    </alumno>
+</alumnos>

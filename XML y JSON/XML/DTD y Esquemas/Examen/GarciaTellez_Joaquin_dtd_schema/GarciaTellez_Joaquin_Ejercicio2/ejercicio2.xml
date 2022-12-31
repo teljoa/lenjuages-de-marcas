@@ -1,0 +1,27 @@
+<!DOCTYPE alumnos [
+<!ELEMENT alumnos (alumno+, fecha+, nota+, observacion+)>
+    <!ELEMENT alumno (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT nota (#PCDATA)>
+    <!ELEMENT observacion (tipo)>
+        <!ELEMENT tipo (trabaja, participa, asistencia)>
+            <!ELEMENT trabaja (#PCDATA)>
+                <!ATTLIST trabaja categoria CDATA "mucho, medio, poco">
+            <!ELEMENT participa (#PCDATA)>
+                <!ATTLIST participa categoria CDATA "mucho, medio, poco">
+            <!ELEMENT asistencia (#PCDATA)>
+                <!ATTLIST asistencia categoria CDATA "mucho, medio, poco">
+]>
+
+<alumnos>
+    <alumno>Luis Ramos</alumno>
+    <fecha>10/11/22</fecha>
+    <nota>7</nota>
+    <observacion>
+        <tipo>
+            <trabaja categoria="medio"></trabaja>
+            <participa categoria="poco"></participa>
+            <asistencia categoria="mucho"></asistencia>
+        </tipo>
+    </observacion>
+</alumnos>

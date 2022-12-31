@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="peliculas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="pelicula" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+<xs:element name="pelicula">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:choice>
+                <xs:element name="titulo">
+                </xs:element>
+            <xs:element name="estreno">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1960"/>
+                        <xs:maxInclusive value="2020"/>
+                    </xs:restriction>
+                </xs:simpleType>
+                </xs:element>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
+    

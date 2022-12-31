@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE facturas [
+    <!ELEMENT facturas (factura+)>
+    <!ELEMENT factura (datos_cliente+, datos_factura+)>
+    <!ELEMENT datos_cliente (nombre+, primer_apellido+, segundo_apellido+, dni+, telefono+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT primer_apellido (#PCDATA)>
+    <!ELEMENT segundo_apellido (#PCDATA)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT datos_factura (resguardo+, alquiler+, compra+)>
+    <!ELEMENT resguardo (forma_pago+, importe_total+)>
+    <!ELEMENT forma_pago (#PCDATA)>
+    <!ELEMENT importe_total (#PCDATA)>
+    <!ELEMENT alquiler (pelicula+,fecha_devolucion)>
+    <!ELEMENT pelicula (titulo+, genero+, duracion+, nombre_actor+, apellido_actor+)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+    <!ELEMENT nombre_actor (#PCDATA)>
+    <!ELEMENT apellido_actor (#PCDATA)>
+    <!ELEMENT compra (dvds+, cinta_video+)>
+    <!ELEMENT dvds (fecha_salida+, extras+)>
+    <!ELEMENT fecha_salida (#PCDATA)>
+    <!ELEMENT extras (#PCDATA)>
+    <!ELEMENT cinta_video (formato+, rebobinada+)>
+    <!ELEMENT formato (#PCDATA)>
+    <!ELEMENT rebobinada (#PCDATA)>
+    <!ATTLIST pelicula idpelicula CDATA #IMPLIED>
+    <!ATTLIST pelicula valoracion CDATA #IMPLIED>
+    <!ATTLIST datos_cliente identificador CDATA #IMPLIED>
+]>
+<facturas>
+    <factura>
+        <datos_cliente identificador="">
+            <nombre></nombre>
+            <primer_apellido></primer_apellido>
+            <segundo_apellido></segundo_apellido>
+            <dni></dni>
+            <telefono></telefono>
+        </datos_cliente>
+        <datos_factura>
+            <resguardo>
+                <forma_pago></forma_pago>
+                <importe_total></importe_total>
+            </resguardo>
+            <alquiler>
+                <pelicula idpelicula="" valoracion="">
+                    <titulo></titulo>
+                    <genero></genero>
+                    <duracion></duracion>
+                    <nombre_actor></nombre_actor>
+                    <apellido_actor></apellido_actor>
+                </pelicula>
+            </alquiler>
+            <compra>
+                <dvds>
+                    <fecha_salida></fecha_salida>
+                    <extras></extras>
+                </dvds>
+            </compra>
+            <cinta_video>
+                <formato></formato>
+                <rebobinada></rebobinada>
+            </cinta_video>
+        </datos_factura>
+    </factura>
+    <factura>
+        <datos_cliente identificador="">
+            <nombre></nombre>
+            <primer_apellido></primer_apellido>
+            <segundo_apellido></segundo_apellido>
+            <dni></dni>
+            <telefono></telefono>
+        </datos_cliente>
+        <datos_factura>
+            <resguardo>
+                <forma_pago></forma_pago>
+                <importe_total></importe_total>
+            </resguardo>
+            <alquiler>
+                <pelicula idpelicula="" valoracion="">
+                    <titulo></titulo>
+                    <genero></genero>
+                    <duracion></duracion>
+                    <nombre_actor></nombre_actor>
+                    <apellido_actor></apellido_actor>
+                </pelicula>
+            </alquiler>
+            <compra>
+                <dvds>
+                    <fecha_salida></fecha_salida>
+                    <extras></extras>
+                </dvds>
+            </compra>
+            <cinta_video>
+                <formato></formato>
+                <rebobinada></rebobinada>
+            </cinta_video>
+        </datos_factura>
+    </factura>
+</facturas>

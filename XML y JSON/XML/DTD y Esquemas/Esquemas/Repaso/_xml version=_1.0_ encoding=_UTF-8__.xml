@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula>
+        <titulo>Star Wars: Episodio IV - Una nueva espezanza</titulo>
+        <estreno>1977</estreno>
+    </pelicula>
+    <pelicula>
+        <titulo>Rogue One: Una historia de Star Wars</titulo>
+        <estreno>2016</estreno>
+    </pelicula>
+    <pelicula>
+        <titulo>Star Wars: Episodio IX - El ascenso de Skywalker</titulo>
+        <estreno>2019</estreno>
+    </pelicula>
+</peliculas>

@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="libreria">
+        <xs:element name="codigo">
+        </xs:element>
+        <xs:element name="direccion">
+        </xs:element>
+        <xs:element name="telefono">
+        </xs:element>
+        <xs:element name="propietario">
+            <xs:element name="nombre">
+            </xs:element>
+            <xs:element name="telefono">
+            </xs:element>
+        </xs:element>
+        <xs:element name="libro">
+            <xs:element name="titulo">
+            </xs:element>
+            <xs:element name="autor">
+            </xs:element>
+            <xs:element name="formato">
+            </xs:element>
+            <xs:element name="publicacion">
+            </xs:element>
+            <xs:element name="precio">
+            </xs:element>
+        </xs:element>
+    </xs:element>
+</xs:schema>
