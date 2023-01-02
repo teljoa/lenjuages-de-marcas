@@ -10,7 +10,7 @@ Aqui explicare sobre los siguientes lenguajes: XML y JSON.
 ### [XML](https://github.com/teljoa/lenjuages-de-marcas/tree/main/XML%20y%20JSON/XML)
 Aqui encontramos codigos escritos en XML.
 
-#### [Ejercicios] (https://github.com/teljoa/lenjuages-de-marcas/tree/main/XML%20y%20JSON/XML/Ejercicios)
+#### [Ejercicios](https://github.com/teljoa/lenjuages-de-marcas/tree/main/XML%20y%20JSON/XML/Ejercicios)
 Aqui hay aljunos ejercicios faciles sobre XML basico.
 
 #### [DTD y Esquemas](https://github.com/teljoa/lenjuages-de-marcas/tree/main/XML%20y%20JSON/XML/DTD%20y%20Esquemas)
