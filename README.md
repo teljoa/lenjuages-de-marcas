@@ -1,5 +1,6 @@
 # lenjuages-de-marcas
 En este repertorio encontras algunas cosas relacionadas con: que son los lenguajes de marca, algunos de los que hay y como se utilizan. 
+![ LDM ](https://gregoriofer.com/moodle/pluginfile.php/27750/course/overviewfiles/LenguajeMarcas.png)
 
 ## [Introducion a los lenguajes de marca](https://github.com/teljoa/lenjuages-de-marcas/tree/main/Introduccion)
 Aqui encontraras un trabajo sobre lo que son los lenguajes de marca.
