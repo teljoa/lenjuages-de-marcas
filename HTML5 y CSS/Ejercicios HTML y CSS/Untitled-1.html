@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+            p.centro{
+                text-align: center;
+            }
+            input:focus{
+                background-color: yellow;
+            }
+            input:hover{
+                background-color: red;
+            }
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            p.centro{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            legend{
+                font-weight: bold;
+            }
+        </style>
+        <h1>iDESWEB</h1></head>
+        <p class="centro">Formulario de registro</p>
+    <body>
+        <form action="https://educacionadistancia.juntadeandalucia.es/centros/sevilla/pluginfile.php/1002981/assignsubmission_file/submission_files/988873/get">
+            <fieldset>
+                <legend>¿Quien eres?</legend>
+                <p>Nombre</p>
+                <input type="text">
+                <p>Apellidos</p>
+                <input type="text">
+                <p>Correo electronico</p>
+                <input type="email">
+                <p>Fecha de nacimiento</p>
+                <input type="datetime-local">
+            </fieldset>
+            <fieldset>
+                <legend>¿De donde eres?</legend>
+                <p>Ciudad</p>
+                <input type="text">
+                <P>Codigo postal</P>               
+                <input type="number">
+                <p>Pais</p>
+                <select>
+                    <option>Pais</option>
+                    <option>...</option>
+                    <option>España</option>
+                    <option>Estrangero</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>¿Como quiere iniciar seccion?</legend>
+                <p>Usuario</p>
+                <input type="text">
+                <p>Contraseña</p>
+                <input type="password">
+                <p>Vuelve a escribir la contraseña</p>
+                <input type="password">
+            </fieldset>
+            <fieldset>
+                <legend>Condiciones de registro</legend>
+                <p>Deseo recivir ofertas de iDESWEB</p>
+                <P>
+                    <input type="radio">
+                    Una vez al dia
+                    <input type="radio">
+                    Una vez a la semana
+                    <input type="radio">
+                    Una vez al mes
+                </P>
+                <p>
+                    <input type="checkbox">
+                    Acepto el acuerdo de sevicios, la declaracion de privacidad y la declaracion de uso de cookies
+                </p>
+            </fieldset>
+            <input type="submit">
+        </form>
+    </body>
+</html>
